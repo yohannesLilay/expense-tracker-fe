@@ -1,27 +1,39 @@
-# WebApp
+## Angular Material Expense Tracker App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.10.
+This is an example Angular Material app that implements a simple expense tracker. It allows users to input their monthly income, expenses, and savings goals, and provides a summary of their financial situation.
 
-## Development server
+## Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+To get started with this app, you will need to have Node.js and Angular CLI installed on your machine. If you don't have these tools installed, you can download them from the following links:
 
-## Code scaffolding
+Node.js
+Angular CLI
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Once you have these tools installed, you can clone this repository and install the dependencies by running the following commands:
 
-## Build
+git clone https://github.com/yohannesLilay/expense-tracker-fe
+cd expense-tracker-fe
+npm install
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Running the App
+To run the app, simply run the following command:
 
-## Running unit tests
+ng serve
+This will start a development server and launch the app in your default browser. You can access the app at http://localhost:4200.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Building the App
+To build the app for production, run the following command:
 
-## Running end-to-end tests
+ng build --prod
+This will create a production build of the app in the dist directory.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Features
+This app includes the following features:
 
-## Further help
+    Input fields for monthly income, expenses, and savings goals
+    Live updating summary of income, expenses, and savings
+    Material design styling and components
+    Responsive layout for mobile and desktop devices
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Contributing
+If you would like to contribute to this app, feel free to submit a pull request or open an issue. We welcome any feedback, bug reports, or feature requests.
